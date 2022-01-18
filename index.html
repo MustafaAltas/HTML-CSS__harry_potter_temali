@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Indie+Flower&family=Lobster+Two&family=Neonderthaw&family=Permanent+Marker&family=Rubik+Beastly&family=Viaoda+Libre&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: black;
+        background-image: url(./223749.gif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        color: white;
+        font-family: "Permanent Marker", cursive;
+      }
+
+      section {
+          margin-left: 150px;
+      }
+
+      #submit {
+          background-color: white;
+          width: 200px;
+          border-radius: 100px;
+          font-size: 25px;
+      }
+
+      #submit:hover {
+          background-color: red;
+      }
+
+      audio {
+          background-color: black;
+          width: 100px;
+          margin-left: 1400px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./1.png" alt="" />
+    </header>
+    <section>
+      <h4>Thank you for taking the time to help us improve the platform</h4>
+
+      <form action="">
+        <div class="input-box">
+          <label for="name">Name</label> <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your Name"
+          />
+        </div>
+        <div class="input-box">
+          <label for="surname">Surname</label> <br />
+          <input
+            type="text"
+            name="surname"
+            id="surname"
+            placeholder="Enter your surname"
+          />
+        </div>
+        <div class="input-box">
+          <label for="mail">Email</label> <br />
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="user@clarusway.com"
+          />
+        </div>
+        <br /><br />
+        <div class="input-box">
+          <label for="role"
+            >Which option best describes your current role ?</label
+          >
+          <br />
+          <select name="role" id="role">
+            <option disabled selected value>Select Current Role</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="full_time_job">Full Time Job</option>
+            <option value="part_time_job">Part Time Job</option>
+            <option value="full_time_learner">Full Time Learner</option>
+            <option value="prefer_not_to_say">Prefer not to say</option>
+          </select>
+        </div>
+        <br />
+        <div class="input-box">
+          <label for="">Would you recommend Clarusway to a friend?</label>
+          <br />
+          <input type="radio" name="reco" id="def" />
+          <label for="def">Definitely, Yes</label> <br />
+          <input type="radio" name="reco" id="maybe" />
+          <label for="maybe">Maybe</label> <br />
+          <input type="radio" name="reco" id="not_sure" />
+          <label for="not_sure">Not Sure</label> <br />
+          <input type="radio" name="reco" id="def_no" />
+          <label for="def_no">Definitely, No</label>
+        </div>
+        <br />
+        <div class="input-box">
+          <label for="favorite"
+            >What is your favorite feature of Clarusway?</label
+          >
+          <br />
+          <select name="favorite" id="favorite">
+            <option selected disabled value>Select an option</option>
+            <option value="courses">Courses</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="mentors">Mentors</option>
+          </select>
+        </div>
+        <br />
+        <div class="input-box">
+          <label for=""
+            >What would you like to see improved? (Check all that apply)</label
+          >
+          <br />
+          <input
+            type="checkbox"
+            name="front1"
+            id="front1"
+            value="front-end_project"
+          />
+          <label for="front1">Front-end Projects</label> <br />
+          <input
+            type="checkbox"
+            name="back1"
+            id="back1"
+            value="back-end_Projects"
+          />
+          <label for="back1">Back-end Projects</label> <br />
+          <input type="checkbox" name="data1" id="data1" />
+          <label for="data1">Data Science</label> <br />
+          <input type="checkbox" name="add1" id="add1" />
+          <label for="add1">Additional Courses</label>
+        </div>
+        <br />
+        <div class="input-box">
+          <label for="comment">Any comments or suggestions?</label> <br />
+          <textarea
+            name="comment"
+            id="comment"
+            cols="30"
+            rows="5"
+            style="resize: none"
+            placeholder="Enter your comment here...Thanxs for your commets...."
+          ></textarea>
+        </div> <br>
+        <input type="submit" value="Submit" id="submit">
+      </form>
+    </section>
+    <footer>
+        <audio src="./müzik/hedwigs-theme.mp3" controls>Tüm Haklar Saklıdır</audio>
+    </footer>
+  </body>
+</html>
